@@ -1,6 +1,6 @@
 {
   "name": "colorful-design",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "React components",
   "author": "lele",
@@ -28,21 +28,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/classnames": "^2.2.10",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "@types/react-transition-group": "^4.2.4",
-    "@types/storybook__addon-info": "^5.2.1",
     "classnames": "^2.2.6",
-    "node-sass": "^4.14.0",
-    "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.7.2",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "react-transition-group": "^4.3.0",
-    "typescript": "^3.7.5"
+    "react-transition-group": "^4.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -72,12 +64,24 @@
     ]
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-transition-group": "^4.2.4",
+    "@types/storybook__addon-info": "^5.2.1",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-info": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "rimraf": "^3.0.2"
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.7.5"
   }
 }
