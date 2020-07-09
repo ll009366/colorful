@@ -1,0 +1,43 @@
+.color_card{
+    border: $border-width solid $border-color;
+    background: #fff;
+    border-radius: 2px;
+    transition: box-shadow .3s;
+
+
+
+    .color_card_head{
+        padding: 0 25px;
+        border-bottom:$border-width solid $border-color;
+        border-radius: 2px 2px 0 0;
+        .color_card_head_title{
+            display: inline-block;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            padding: 12px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-weight: 550;
+            font-size: 16px;
+            color: rgba(0,0,0,.85);
+            width: 100%;
+        }
+    }
+
+    .color_card_head_hide{
+        display: none;
+    }
+
+    .color_card_content{
+        padding: 24px;
+        box-sizing: border-box;
+    }
+}
+
+.color_card_shadow{
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+}

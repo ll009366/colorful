@@ -9,6 +9,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import Icon from './components/Icon/Icon';
 import Alert from './components/Alert/Alert';
 import Tabs from './components/Tabs';
+import Card from './components/Card'
+
 const TabItem = Tabs.Item
 library.add(fas);
 
@@ -104,6 +106,10 @@ function App() {
         <TabItem label="tab2">content2</TabItem>
         <TabItem label="disabled" disabled>content3</TabItem>
       </Tabs>
+
+            <Card title='我是你的爸爸' style={{width:'300px'}} hoverable>
+                <div>我是张乐我是张乐我是张乐我是张乐我是张乐我是张乐</div>
+            </Card>
 
         </div>
       </header>
